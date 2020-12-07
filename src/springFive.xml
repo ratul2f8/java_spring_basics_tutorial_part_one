@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
+    <bean id="triangleTwo" class="com.example.utilityclasses.TriangleTwo" autowire="byName">
+
+    </bean>
+    <bean id="pointA" class="com.example.utilityclasses.PointTwo">
+        <property name="x" value="0"/>
+        <property name="y" value="0"/>
+    </bean>
+    <bean id="pointB" class="com.example.utilityclasses.PointTwo">
+        <property name="x" value="-20"/>
+        <property name="y" value="0"/>
+    </bean>
+    <bean id="pointC" class="com.example.utilityclasses.PointTwo">
+        <property name="x" value="20"/>
+        <property name="y" value="0"/>
+    </bean>
+</beans>
